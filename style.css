@@ -1,0 +1,29 @@
+.slot {
+    background-color: aqua;
+    border: solid red;
+    
+    width: calc(100%/7);
+    text-align: center;
+    min-height: 50px;
+    align-items: center;
+    
+}
+.row{
+    border: solid;
+    display: flex;
+    width: 100%;
+    height: calc(450px/7);
+    align-items: center;
+    
+}
+#game-board{
+    background-color: blue;
+    min-height: 450px;
+    max-height: 900px;
+    
+
+}
+.col5 {
+    background-color: black;
+}
+
