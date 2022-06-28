@@ -1,6 +1,6 @@
 var ROWS = 6;
 var COLUMNS = 7;
-
+var allSpots = document.querySelectorAll(".spot");
 
 // make 7 columns
 function createBoard() {
@@ -25,7 +25,11 @@ function createBoard() {
     }
     
 };
-//make 6 rows
+allSpots.forEach(function (spot) {
+    spot.onclick = function() {
+        
+    }
+})
 
 
 createBoard();
